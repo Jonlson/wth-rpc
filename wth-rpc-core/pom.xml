@@ -9,7 +9,7 @@
         <artifactId>wth-rpc</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>wth.dts</groupId>
+    <groupId>wth.rpc</groupId>
     <artifactId>wth-rpc-core</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>

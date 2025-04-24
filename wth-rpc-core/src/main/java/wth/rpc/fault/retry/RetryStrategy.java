@@ -1,6 +1,6 @@
 package wth.rpc.fault.retry;
 
-import com.yupi.yurpc.model.RpcResponse;
+import wth.rpc.model.RpcResponse;
 
 import java.util.concurrent.Callable;
 
@@ -20,5 +20,7 @@ public interface RetryStrategy {
      * @return
      * @throws Exception
      */
+    RpcResponse doRetry(Callable<RpcResponse> callable) throws Exception;
+
     RpcResponse doRetry(Callable<RpcResponse> callable) throws Exception;
 }
