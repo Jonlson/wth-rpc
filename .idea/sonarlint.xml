@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="wth-rpc-core" value="wth-dts-base" />
+        <entry key="wth-rpc-starter" value="system-dts-template" />
+        <entry key="wth-spring-rpc-consumer" value="simple-kafka-comsumer" />
+      </map>
+    </option>
+  </component>
+</project>
