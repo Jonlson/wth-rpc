@@ -1,0 +1,2 @@
+etcd=wth.rpc.registry.EtcdRegistry
+zookeeper=wth.rpc.registry.ZooKeeperRegistry

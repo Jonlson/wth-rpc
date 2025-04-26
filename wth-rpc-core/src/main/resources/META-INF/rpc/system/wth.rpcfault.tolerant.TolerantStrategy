@@ -1,0 +1,4 @@
+failBack=wth.rpc.fault.tolerant.FailBackTolerantStrategy
+failFast=wth.rpc.fault.tolerant.FailFastTolerantStrategy
+failOver=wth.rpc.fault.tolerant.FailOverTolerantStrategy
+failSafe=wth.rpc.fault.tolerant.FailSafeTolerantStrategy

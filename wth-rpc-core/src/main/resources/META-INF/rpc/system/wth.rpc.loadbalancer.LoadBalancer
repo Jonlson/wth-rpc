@@ -1,0 +1,3 @@
+roundRobin=wth.rpc.loadbalancer.RoundRobinLoadBalancer
+random=wth.rpc.loadbalancer.RandomLoadBalancer
+consistentHash=wth.rpc.loadbalancer.ConsistentHashLoadBalancer

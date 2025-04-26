@@ -8,14 +8,15 @@ import wth.rpc.annotation.RpcService;
 import wth.rpc.config.RegistryConfig;
 import wth.rpc.config.RpcConfig;
 import wth.rpc.model.ServiceMetaInfo;
+import wth.rpc.registry.LocalRegistry;
 import wth.rpc.registry.Registry;
+import wth.rpc.*;
+import wth.rpc.registry.RegistryFactory;
 
 /**
  * Rpc 服务提供者启动
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">程序员鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+
  */
 @Slf4j
 public class RpcProviderBootstrap implements BeanPostProcessor {

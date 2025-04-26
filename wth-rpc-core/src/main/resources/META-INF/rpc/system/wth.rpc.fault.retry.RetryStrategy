@@ -1,0 +1,2 @@
+no=wth.rpc.fault.retry.NoRetryStrategy
+fixedInterval=wth.rpc.fault.retry.FixedIntervalRetryStrategy

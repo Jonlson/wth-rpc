@@ -1,0 +1,4 @@
+wth.rpc.serializer.JdkSerializer
+
+
+# 默认使用Jdk的序列化器

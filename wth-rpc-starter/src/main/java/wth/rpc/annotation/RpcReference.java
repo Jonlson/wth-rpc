@@ -2,6 +2,11 @@ package wth.rpc.annotation;
 
 
 
+import wth.rpc.constant.RpcConstant;
+import wth.rpc.fault.retry.RetryStrategyKeys;
+import wth.rpc.fault.tolerant.TolerantStrategyKeys;
+import wth.rpc.loadbalancer.LoadBalancerKeys;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -10,9 +15,7 @@ import java.lang.annotation.Target;
 /**
  * 服务消费者注解（用于注入服务）,注入服务:
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">程序员鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)

@@ -1,6 +1,8 @@
 package wth.rpc.loadbalancer;
 
-import com.yupi.yurpc.model.ServiceMetaInfo;
+
+
+import wth.rpc.model.ServiceMetaInfo;
 
 import java.util.List;
 import java.util.Map;
@@ -8,9 +10,7 @@ import java.util.Map;
 /**
  * 负载均衡器（消费端使用）
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
+
  */
 public interface LoadBalancer {
 
