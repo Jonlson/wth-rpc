@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import wth.rpc.annotation.RpcReference;
-
+import wth.rpc.proxy.ServiceProxyFactory;
 import java.lang.reflect.Field;
 
 /**

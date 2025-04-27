@@ -14,15 +14,11 @@ import wth.rpc.protocol.ProtocolConstant;
 public class TcpBufferHandlerWrapper implements Handler<Buffer> {
 
     /**
-     * 解析器：解决半包、粘包问题:少数据，多数据问题
-     *
-     * */
-
-
+     * 解析器，用于解决半包、粘包问题
+     */
     private final RecordParser recordParser;
 
-
-    public TcpBufferHandlerWrapper(RecordParser bufferHandler) {
+    public TcpBufferHandlerWrapper(Handler<Buffer> bufferHandler) {
         recordParser = initRecordParser(bufferHandler);
     }
 
@@ -51,7 +47,7 @@ public class TcpBufferHandlerWrapper implements Handler<Buffer> {
             public void handle(Buffer buffer) {
                 // 1. 每次循环，首先读取消息头
                 if (-1 == size) {
-                    // 读取消息体长度13~16为int是消息体的长度
+                    // 读取消息体长度
                     size = buffer.getInt(13);
                     parser.fixedSizeMode(size);
                     // 写入头信息到结果

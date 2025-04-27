@@ -5,9 +5,7 @@ import io.vertx.core.buffer.Buffer;
 import io.vertx.core.net.NetSocket;
 import wth.rpc.model.RpcRequest;
 import wth.rpc.model.RpcResponse;
-import wth.rpc.protocol.ProtocolMessage;
-import wth.rpc.protocol.ProtocolMessageStatusEnum;
-import wth.rpc.protocol.ProtocolMessageTypeEnum;
+import wth.rpc.protocol.*;
 import wth.rpc.registry.LocalRegistry;
 
 import java.io.IOException;
