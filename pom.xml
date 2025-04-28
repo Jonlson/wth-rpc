@@ -14,6 +14,7 @@
         <module>wth-rpc-core</module>
         <module>wth-spring-rpc-consumer</module>
         <module>wth-rpc-starter</module>
+        <module>wth-base-common</module>
     </modules>
 
     <properties>
@@ -80,6 +81,12 @@
                 <groupId>com.lmax</groupId>
                 <artifactId>disruptor</artifactId>
                 <version>${disruptor.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>3.3.0</version>
             </dependency>
 
             <dependency>

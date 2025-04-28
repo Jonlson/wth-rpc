@@ -9,6 +9,7 @@
         <module name="wth-spring-rpc-producer" />
         <module name="wth-rpc-core" />
         <module name="wth-spring-rpc-consumer" />
+        <module name="wth-base-common" />
         <module name="wth-rpc-starter" />
       </profile>
     </annotationProcessing>
